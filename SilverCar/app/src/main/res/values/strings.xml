@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SilverCar</string>
+    <string name="tag_email">Ingrese el E-mail registrado</string>
+    <string name="tag_pass">Ingrese la contraseña</string>
+    <string name="login">Login</string>
+    <string name="registrar">Registrarse</string>
+    <string name="emailnew">Ingrese el E-mail</string>
+    <string name="confirmpass">Confirme la contraseña</string>
+    <string name="addacount">Crear cuenta</string>
+    <string name="addcar">Agregar un carro</string>
+    <string name="viewcars">Ver carros</string>
+    <string name="user">Usuario: </string>
+    <string name="addmarca">Agrege la marca del vehiculo</string>
+    <string name="addmodel">Agrege el modelo</string>
+    <string name="addphone">Agrege un numero de contacto</string>
+    <string name="addphoto">Agrege una foto del vehiculo</string>
+    <string name="add">Agregar</string>
+    <string name="addprize">Agregar precio ($)</string>
+    <string name="marca">Marca:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="precio">Precio:</string>
+    <string name="propietario">Propietario:</string>
+    <string name="telefono">Telefono:</string>
+</resources>

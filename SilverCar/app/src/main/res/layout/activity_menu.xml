@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmenuactivity"
+    tools:context=".MenuActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textviewusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:textColor="#F4F2F1"
+            android:textSize="20sp"
+
+            />
+
+
+        <Button
+            android:id="@+id/botonvercarros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#80000000"
+            android:onClick="verCars"
+            android:text="@string/viewcars"
+            android:textColor="#F4F2F1" />
+
+        <Button
+            android:id="@+id/agregarcarro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#80000000"
+            android:onClick="addCars"
+            android:text="@string/addcar"
+
+            android:textColor="#F4F2F1" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
